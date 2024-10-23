@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding:0;
+            margin:0;
+            box-sizing: border-box;  /* user these 3properties for all the webpage designing*/
+        }
+        body{
+            height:100vh;
+            width:100%;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+        form{
+            height: 450px;
+            width:300px;
+            border:2px solid black;
+            display:flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            box-shadow: 2px 2px 5px goldenrod;
+            border:none;
+        }
+        h2{
+            color:green;
+        }
+        h3{
+            color:grey;
+        }
+        input{
+            height:30px;
+            width:80%;
+            text-align: center;
+            font-size: 17px;
+        }
+        button{
+            height:40px;
+            width:80%;
+            background-color: green;
+            color:white;
+            border:none;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <h2>LOGIN FORM</h2>
+            <h3>Username</h3> 
+            <input type="text email" placeholder="Enter Username or Email">  
+            <h3>Password</h3>
+            <input type="password" placeholder="Enter 8 digit password">
+            <button>LOGIN</button>    
+            <a href="./register.html">New user?Register!</a> 
+    </form>
+</body>
+</html>

@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Document</title>
+    <style>
+        
+       *{ padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      body{
+         background-color: black; 
+      }
+      header {
+        height: 15vh;
+        width: 100%;
+        /* border: 2px solid black; */
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: black;
+      }
+
+      nav {
+        height: 100%;
+        width: 80%;
+        /* border: 2px solid green; */
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      #logo {
+        height: 80%;
+        width: 200px;
+        /* border: 1px solid red;  */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      #logo > img {
+        height: 110%;
+        width: 70%;
+        border-radius:100%;
+      }
+
+      .first {
+        height: 50%;
+        width: 90px;
+        /* border: 2px solid blue; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: red;
+        border-radius: 5px;
+        border:none;
+      }
+
+      #bt .first > a {
+        height: 30px;
+        width: 80px;
+        /* background-color: red; */
+        border: none;
+        color: white;
+        border-radius: 5px;
+        text-align: center;
+          }
+      .second {
+        height: 50%;
+        width: 90px;
+        /* border: 2px solid blue; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color:yellow;
+        border-radius: 5px;
+        border:none;
+      }
+
+       #bt .second > a {
+        height: 30px;
+        width: 80px;
+        border: 1px solid rgb(207, 194, 194);
+        border-radius: 5px;
+        border:none;
+        color: black;
+      }
+        main{
+            height:160vh;
+            width:100%;
+            /* border:2px solid red; */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color:white;
+            padding-top: 70px;
+        }
+       #sec1{
+            height:30%;
+            width:100%;
+            /* border:2px solid yellow; */
+            display:flex;
+            justify-content: space-evenly;
+            align-items: center;
+            overflow:hidden;
+            white-space:nowrap;
+        }
+        #sec2{
+            height:30%;
+            width:100%;
+            /* border:2px solid yellow; */
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+            overflow:hidden;
+            white-space:nowrap;
+        }
+       #sec1 div{
+            height:80%;
+            width:20%;
+            /* border:2px solid brown; */
+            /* box-shadow: 0px 0px 3px royalblue; */
+            padding:5px;
+            animation: scroll-left 5s linear infinite;
+        }
+        #sec1 .image img{
+            height:100%;
+            width:100%;
+            cursor: pointer;
+        }
+        #sec2 .image img{
+            height:100%;
+            width:100%;
+            cursor: pointer;
+        }
+        #sec2 div{
+            height:80%;
+            width:20%;
+            /* border:2px solid brown; */
+            /* box-shadow: 0px 0px 3px royalblue; */
+            animation: scroll-left 5s linear infinite;
+            padding:5px;
+
+        }
+        #sec3{
+            height:40%;
+            width:100%;
+            /* border:2px solid yellow; */
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+        }
+        #sec3 h4 .btns {
+            background-color: black;
+            color:grey;
+            border:none;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bolder;
+            font-size: 16px;
+            padding-left:50px;
+        }
+        #sec4  {
+            display:flex;
+            justify-content:center;
+            align-items: center;
+            gap:20px;
+        }
+        #sec4 button{
+            border:none;
+            border-radius: 50%;
+        }
+        #sec4 button i{
+            width:50px;
+            height:50px;
+            border: none;
+            border-radius:100%;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+        footer{
+      height:20vh;
+      width:100%;
+      border:2px solid black;
+      display:flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      color:red;
+      font-size: 16px;
+      font-weight:thin;
+      padding-left:15px;
+      padding-right:15px;
+     }
+     ::-webkit-scrollbar{
+        scrollbar-width: none;
+     }
+     @keyframes scroll-left{
+        0%{
+            transform:translateX(100%);
+        }
+        100%{
+            transform:translateX(-100%);
+        }
+     }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+       <div id="logo"><img src="./logo.jpeg" alt=""></div> 
+       <div id="bt"><button class="first"><a href="./designlogin.html">LOGIN</a></button><br>
+        <button class="second"><a href="./welcome.html">GET STARTED ></a></button></div>
+        </nav>
+    </header>
+    <main>
+        <div id="dhanya"><h1 style="color:aqua;font-style: italic;"><u>STREAMIE</u><h1></div><br>
+        <h2>For Indian customers:</h2>
+        <h4>The device must be present India to stream</h4>
+        <br>
+        <h2>To the International clients/audiences:</h2>
+        <h4>STREAMIE is not available in your country.</h4>
+        <section id="sec1">
+            <div class="image"><img src="./movie1.jpeg" alt=""></div>
+            <div class="image"><img src="./movie2.jpeg" alt=""></div>
+            <div class="image"><img src="./movie3.jpeg" alt=""></div>
+            <div class="image"><img src="./movie4.jpeg" alt=""></div>
+            <div class="image"><img src="./movie9.jpeg" alt=""></div>
+            <div class="image"><img src="./movie13.jpeg" alt=""></div>
+            <div class="image"><img src="./movie14.jpeg" alt=""></div>
+            <div class="image"><img src="./movie15.jpeg" alt=""></div>
+        </section>
+        <section id="sec2">
+            <div class="image"><img src="./movie5.jpeg" alt=""></div>
+            <div class="image"><img src="./movie6.jpeg" alt=""></div>
+            <div class="image"><img src="./movie7.jpeg" alt=""></div>
+            <div class="image"><img src="./movie8.jpeg" alt=""></div>
+            <div class="image"><img src="./movie11.jpeg" alt=""></div>
+            <div class="image"><img src="./movie12.jpeg" alt=""></div>
+            <div class="image"><img src="./movie16.jpeg" alt=""></div>
+            <div class="image"><img src="./movie17.jpeg" alt=""></div>
+            <div class="image"><img src="./movie18.jpeg" alt=""></div>
+        </section>
+        <section id="sec3">
+        <h4><button class="btns"><a href="./term.txt" style="text-decoration: none;color:grey;">Terms and conditions</a></button></h4><br>
+        <h4><button class="btns"><a href="./privacy.txt" style="text-decoration: none;color:grey;">Privacy Policy</a></button></h4><br>
+        <h4><button class="btns"><a href="./access.txt" style="text-decoration: none;color:grey;">Accesibility</a></button></h4><br>
+        <h4><button class="btns"><a href="./notice.txt" style="text-decoration: none;color:grey;">CA Notice</a></button></h4><br>
+        <h4><button class="btns"><a href="./choice.txt" style="text-decoration: none;color:grey;">Ad chioces</a></button></h4><br>
+        <h4><button class="btns"><a href="./cookie.txt" style="text-decoration: none;color:grey;">Cookie Notice</a></button></h4><br>
+        <h4><button class="btns"><a href="./help.txt" style="text-decoration: none;color:grey;">Help</a></button></h4><br>
+        <h4><button class="btns"><a href="./career.txt" style="text-decoration: none;color:grey;">Careers</a></button></h4><br>
+        <h4><button class="btns"><a href="./ad.txt" style="text-decoration: none;color:grey;">Advertise with us</a></button></h4><br>
+        <h4><button class="btns"><a href="./com.txt" style="text-decoration: none;color:grey;">Commercial Sports Access</a></button></h4>
+        </section>
+        <section id="sec4">
+          <a href="https://www.fb.com/l/6lp1kJRRR" target="_blank"> <button><i class="fa-brands fa-facebook"></i></button></a>
+        <a href="https://www.snapchat.com/add/sumagondkar?share_id=ImBdBFukWzI&locale=en-US" target="_blank"><button><i class="fa-brands fa-snapchat"></i></button></a>
+        <a href="https://youtube.com/@ananyakamath2364?si=imS4o4Rww6spg1po" target="_blank"><button><i class="fa-brands fa-youtube"></i></button></a>
+        <a href="https://www.instagram.com/dhanya_s222/profilecard/?igsh=cGh6MDltMWo5MTNl" target="_blank"><button><i class="fa-brands fa-instagram"></i></button></a>
+        <a href="./animation.html" target="_blank"><button><i class="fa-solid fa-circle-dollar-to-slot"></i></button></a>
+    </section>
+    </main>
+    <footer>
+        <h4>STREAMIE <i class="fa-regular fa-copyright"></i> Streamie TV LLC. A Division of BCAUniversal. All other programs and/or marks are the property of their respective owners.All rights are reserved.</h4>
+    </footer>
+</body>
+</html>

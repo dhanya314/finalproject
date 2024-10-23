@@ -1,0 +1,38 @@
+Ad Choices
+
+At STREAMIE, we believe in providing you with choices about the ads you see on our platform. We also want to be transparent about how we use data to deliver those ads. Here's what you need to know:
+
+What Data Do We Use for Advertising?
+We use the following data to deliver ads on our platform:
+
+Device Information: Your device's IP address, operating system, browser type, and device ID.
+Usage Data: Your viewing history, search queries, and interactions with our platform.
+Location Data: Your location, if you have enabled location services on your device.
+Demographic Data: Your age, gender, and interests, if you have provided this information to us.
+How Do We Use This Data for Advertising?
+We use this data to deliver ads that are relevant to your interests and preferences. We also use this data to:
+
+Target Ads: We use your data to target ads to specific audiences, such as people who have shown an interest in a particular genre of content.
+Measure Ad Performance: We use your data to measure the effectiveness of our ads and to understand how users interact with them.
+Personalize Ads: We use your data to personalize ads to your interests and preferences.
+What Are My Ad Choices?
+You have the following ad choices:
+
+Opt-Out of Targeted Advertising: You can opt-out of targeted advertising by clicking on the "Opt-Out" button below. This will prevent us from using your data to deliver targeted ads.
+Limit Ad Tracking: You can limit ad tracking by enabling the "Limit Ad Tracking" feature on your device. This will prevent us from collecting data about your device and using it to deliver targeted ads.
+Delete Your Data: You can delete your data by submitting a request to us at [support email]. This will prevent us from using your data to deliver targeted ads.
+How Do I Opt-Out of Targeted Advertising?
+To opt-out of targeted advertising, click on the "Opt-Out" button below. This will prevent us from using your data to deliver targeted ads.
+
+[Opt-Out Button]
+
+How Do I Limit Ad Tracking?
+To limit ad tracking, enable the "Limit Ad Tracking" feature on your device. This will prevent us from collecting data about your device and using it to deliver targeted ads.
+
+How Do I Delete My Data?
+To delete your data, submit a request to us at streamie@1234@gmail.com. This will prevent us from using your data to deliver targeted ads.
+
+Changes to This Policy
+We may update this policy from time to time to reflect changes in our practices or to comply with changes in the law. We will notify you of any material changes to this policy by posting the updated policy on our website.
+
+Last Updated: 10-oct/2024

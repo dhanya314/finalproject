@@ -1,0 +1,37 @@
+Accessibility at STREAMIE-
+
+At STREAMIE, we are committed to ensuring that our platform is accessible to all users, including those with disabilities. We strive to provide an inclusive experience that allows everyone to enjoy our content without barriers. This Accessibility section outlines our efforts and the features we have implemented to enhance usability for all.
+
+Our Commitment to Accessibility
+Compliance with Standards: We adhere to the Web Content Accessibility Guidelines (WCAG) to ensure our platform meets the accessibility standards set forth by the World Wide Web Consortium (W3C).
+Continuous Improvement: We regularly review and update our platform to enhance accessibility features based on user feedback and evolving best practices.
+Accessibility Features
+Screen Reader Compatibility
+
+Our platform is designed to work seamlessly with popular screen readers, allowing visually impaired users to navigate and access content easily.
+Keyboard Navigation
+
+Users can navigate our platform using keyboard shortcuts, making it easier for individuals who cannot use a mouse.
+Audio Descriptions
+
+Many of our video titles include audio descriptions that provide additional narration of visual elements, enhancing the viewing experience for users with visual impairments.
+Closed Captioning
+
+We offer closed captions for most of our content, enabling users who are deaf or hard of hearing to follow along with the dialogue and sound cues.
+Adjustable Text Size and Contrast
+
+Users can adjust text size and contrast settings to suit their visual preferences, improving readability and comfort.
+Feedback and Support
+We welcome feedback from our users regarding accessibility features and any challenges you may face while using our platform. If you have suggestions for improvements or require assistance, please contact our customer support team:
+
+Email: streamie@1234@gmai.com
+Phone: 7411364357
+Live Chat: Available on our website during business hours.
+Resources
+For more information on accessibility and how we can assist you, please visit the following resources:
+
+https://www.streamie.com
+Join Us in Our Mission
+We believe that everyone should have equal access to entertainment. At STREAMIE, we are dedicated to creating a platform that is welcoming and accessible to all. Thank you for being a part of our community!
+
+Last Updated: 10-oct/2024

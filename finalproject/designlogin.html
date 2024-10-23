@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            padding:0;
+            margin:0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body{
+            height:100vh;
+            width:100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url('./nat.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+            
+        }
+        form{
+            height:450px;
+            width:400px;
+            background-color: transparent;
+            border:2px solid rgb(175, 159, 159);
+            color:white;
+            display: flex;
+            flex-direction: column;
+            justify-content:space-around;
+            align-items: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            border-radius: 10px;
+            backdrop-filter: blur(25px);
+        }
+        form div{
+            height:50px;
+            width:80%;
+            border:2px solid rgb(204, 180, 180);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-left:10px;
+            padding-right: 10px;
+            border-radius: 20px;
+        }
+        form div input{
+            height:100%;
+            width:80%;
+            border:none;
+            background-color: transparent;
+            color:white;
+            outline:none;
+        }
+        #third a{
+            color:white;
+            text-decoration: none;
+        }
+        p a{
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        form div input::placeholder{
+            color:rgb(255, 255, 255);
+        }
+        #third{
+            border:none;
+            width:100%;
+            /* border:2px solid red; */
+        }
+        #third label{
+            /* border:2px solid black; */
+            width:60%;
+            display: flex;
+            justify-content:flex-start;
+            align-items: center;
+
+        }
+        #third input{
+            height:10px;
+            width:10px;
+            margin-right: 5px;
+        }
+        button{
+            height:40px;
+            width:80%;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <h1>Login</h1>
+        <div><input type="text" placeholder="Username"><i class="fa-solid fa-user"></i></div>
+        <div><input type="password" placeholder="Password"><i class="fa-solid fa-lock" style="color:white;"></i></div>
+        <div id="third"><label for=""><input type="checkbox">Remember Me?</label><a href="">Forgot Password?</a></div>
+        <button>Login</button>
+        <p>Don't have an account?<a href="./register.html">Register</a></p>
+    </form>
+</body>
+</html>
